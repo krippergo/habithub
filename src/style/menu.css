@@ -1,0 +1,132 @@
+body {
+	background-image: url(/img/habit);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.img_clock {
+	position: absolute;
+	width: 85px;
+	height: 85px;
+	left: 11px;
+	top: 11px;
+	user-select: none;
+}
+.button_one {
+	position: absolute;
+	width: 106px;
+	height: 58px;
+	background: #9597CB;
+	border-radius: 12px;
+	left: 841px;
+	top: 10px;
+}
+.text_one {
+	width: 82px;
+	height: 22px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 27px;
+	color: #FFFFFF;
+	padding-left: 14px;
+	padding-top: 17px;
+	user-select: none;
+}
+.button_one:hover {
+	cursor: pointer;
+}
+.button_two {
+	position: absolute;
+	width: 284px;
+	height: 58px;
+	background: #9597CB;
+	border-radius: 12px;
+	top: 10px;
+	left: 969px;
+}
+.text_two {
+	width: 264px;
+	height: 27px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 27px;
+	color: #FFFFFF;
+	padding-left: 10px;
+	padding-top: 16px;
+	user-select: none;
+}
+.button_two:hover {
+	cursor: pointer;
+}
+.main {
+	width: 987px;
+	height: 590px;
+	background: #A7A9DC;
+	border-radius: 12px;
+	margin-left: 147px;
+	margin-top: 93px;
+}
+.main_text {
+	width: 724px;
+	height: 213px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 61px;
+	line-height: 71px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-left: 132px;
+	padding-top: 50px;
+}
+.main_text_two {
+	width: 960px;
+	height: 216px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	line-height: 43px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	padding-left: 14px;
+	padding-top: 60px;
+}
+.button_start {
+	position: absolute;
+	width: 297px;
+	height: 58px;
+	background: #9597CB;
+	border-radius: 12px;
+	margin-left: 502px;
+	margin-top: 27px;
+}
+.text_start {
+	width: 276px;
+	height: 32px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFEFE;
+	padding-left: 11px;
+	padding-top: 12px;
+	user-select: none;
+}
+.button_start:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,268 @@
+body {
+	background-image: url(/img/habit);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.main {
+	position: absolute;
+	width: 985px;
+	height: 592px;
+	top: 97px;
+	left: 146px;
+	background: #A7A9DC;
+	border-radius: 12px;
+}
+.img_clock {
+	position: absolute;
+	width: 85px;
+	height: 85px;
+	left: 11px;
+	top: 11px;
+	user-select: none;
+}
+.hab-coins {
+	position: absolute;
+	height: 32px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #F8F8F8;
+	top: 13px;
+	left: 7px;
+}
+.hab-coins_box {
+	position: absolute;
+	min-width: 281px;
+	height: 58px;
+	background: #9597CB;
+	border-radius: 12px;
+	top: 17px;
+	left: 720px;
+}
+.button_prise {
+	position: absolute;
+	width: 240px;
+	height: 58px;
+	left: 1023px;
+	top: 17px;
+	background: #9597CB;
+	border-radius: 12px;
+}
+.prise {
+	position: absolute;
+	height: 27px;
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 25px;
+	display: flex;
+	color: #F8F8F8;
+	top: 13px;
+	left: 17px;
+	user-select: none;
+}
+.button_prise:hover {
+	cursor: pointer;
+}
+.top_line {
+	position: absolute;
+	border-radius: 12px;
+	width: 985px;
+	height: 73px;
+	left: 0px;
+	top: 0px;
+	background: #9597CB;
+	opacity: 0.58;
+}
+.main_text {
+	position: absolute;
+	left: 9px;
+	top: 14px;
+	height: 47px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 47px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+.habit_box {
+	position: absolute;
+	width: 985px;
+	min-height: 519px;
+	top: 73px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	border-radius: 12px;
+}
+.none_habit_background {
+	position: absolute;
+	width: 811px;
+	height: 61px;
+	left: 88px;
+	top: 177px;
+	background: #9597CB;
+	border-radius: 12px;
+}
+.none_habit {
+	position: absolute;
+	width: 791px;
+	height: 37px;
+	left: 10px;
+	top: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+.container {
+	position: absolute;
+	left: 317px;
+	top: 700px;
+	font-size: 30px;
+	text-align: center;
+}
+.button_habit {
+	position: absolute;
+	width: 281px;
+	height: 58px;
+	background: #9597CB;
+	border-radius: 12px;
+	left: 200px;
+	top: 0px;;
+}
+.create_habit {
+	position: absolute;
+	height: 32px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFEFE;
+	left: 17px;
+	top: 14px;
+	user-select: none;
+}
+.button_habit:hover {
+	cursor: pointer;
+}
+.habit {
+	position: absolute;
+	width: 790px;
+	height: 160px;
+	background: #9597CB;
+	border-radius: 12px;
+	top: 24px;
+	left: 99px;
+}
+.habit_name {
+	position: absolute;
+	width: 570px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #F8F8F8;
+	top: 17px;
+	left: 19px;
+}
+.day {
+	position: absolute;
+	width: 348px;
+	height: 35px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #F8F8F8;
+	left: 17px;
+	top: 78px;
+}
+.day_ost {
+	position: absolute;
+	width: 247px;
+	height: 35px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	color: #F8F8F8;
+	left: 17px;
+	top: 113px;
+}
+.view {
+	position: absolute;
+	width: 172px;
+	height: 58px;
+	background: #A7A9DC;
+	border-radius: 12px;
+	left: 604px;
+	top: 14px;
+}
+.view_text {
+	position: absolute;
+	width: 154px;
+	height: 36px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #F8F8F8;
+	left: 14px;
+	top: 10px;
+	user-select: none;
+}
+.view:hover {
+	cursor: pointer;
+}
+.text_creating_none {
+	position: absolute;
+	width: 629px;
+	height: 64px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7C7FC3;
+	left: 179px;
+	top: 304px;
+}

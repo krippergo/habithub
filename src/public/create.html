@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="/img/clock/ico">
+		<title>хэбит-хаб: создание привычки</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="/style/create">
+	</head>
+	<body>
+		<div class="main_menu">
+			<div class="img_exit_box" onclick="exit()"><img src="/img/exit" class="img_exit"/></div>
+			<div class="main_text">СОЗДАНИЕ ПРИВЫЧКИ</div>
+			<form id="form" action="/creating" method="post">
+				<div class="name">введите название привычки</div>
+				<input class="input_name" type="text" name="name" id="name" placeholder="Не больше 30 символов" maxlength="30"/>
+				<div class="question">ответе на вопросы, которые помогут вам сформировать привычку</div>
+				<div class="questions">1 - Зачем вам нужна эта привычка?</div>
+				<input class="input" type="text" name="answerone" id="answerone" placeholder="Не больше 50 символов" maxlength="50"/>
+				<div class="questions">2 - Что произойдёт в вашей жизни, когда привычка сформируется?</div>
+				<input class="input" type="text" name="answertwo" id="answertwo" placeholder="Не больше 50 символов" maxlength="50"/>
+				<div class="filled_form" id="filled_form"></div>
+				<input class="input_id" type="number" name="id" id="id" autocomplete="off"  autocomplete="off" readonly/>
+			</form>
+			<div class="sovets">Советы по формированию привычки:</div>
+			<div class="description">1. Не бросайтесь в омут с головой. Помните – великое начинается с малого. Вносить привычку в свою жизнь стоит постепенно и помалу.</div>
+			<div class="description">2. Ознакомьтесь с тем, как формируются привычки. О том, что такое привычка, в общей сложности знает каждый. Но все же полезно ознакомиться с физиологическими и психологическими процессами. О том, как формируются привычки можно прочитать по <a href="https://www.b17.ru/article/61014/" target="_blank">ссылке</a>.</div>
+			<div class="description">3. Ваша цель должна быть реальной и выполнимой. В пылу энтузиазма легко переоценить свои текущие возможности. Конечно, стремиться нужно к идеалу, но начинать стоит с достаточно простых, реалистичных и выполнимых целей.</div>
+			<div class="button_exit" onclick="exit()"><div class="text_exit">Отмена</div></div>
+			<div class="button_creating" onclick="creating()"><div class="text_creating">Создать</div></div>
+		</div>
+		<div id="filled_form"></div>
+		<script src="/js/create"></script>
+	</body>
+</html>

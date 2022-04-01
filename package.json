@@ -1,0 +1,19 @@
+{
+  "name": "habits",
+  "version": "1.0.0",
+  "description": "It is project work for Hckathon",
+  "main": "habits.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "klimov_vladimir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "md5": "^2.3.0"
+  }
+}

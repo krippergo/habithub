@@ -1,0 +1,126 @@
+body {
+	background-image: url(/img/habit);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.img_clock {
+	position: absolute;
+	width: 85px;
+	height: 85px;
+	left: 12px;
+	top: 12px;
+	user-select: none;
+}
+.main {
+	width: 987px;
+	height: 590px;
+	background: #A7A9DC;
+	border-radius: 12px;
+	margin-top: 93px;
+	margin-left: 146px;
+}
+.error_text {
+	width: 325px;
+	height: 59px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 75px;
+	line-height: 88px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 53px;
+	padding-left: 94px;
+}
+.error_number {
+	position: absolute;
+	width: 452px;
+	height: 210px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 256px;
+	line-height: 300px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	top: 124px;
+	left: 591px;
+}
+.container_ops {
+	width: 961px;
+	height: 205px;
+	background: rgba(149, 151, 203, 0.58);
+	border-radius: 12px;
+	margin-left: 11px;
+	margin-top: 151px;
+}
+.ups {
+	padding-left: 30px;
+	padding-top: 8px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 41px;
+	color: #FFFFFF;
+}
+.problem_one {
+	position: absolute;
+	left: 172px;
+	top: 382px;
+	width: 873px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 41px;
+	color: #FFFFFF;
+}
+.problem_two {
+	position: absolute;
+	left: 172px;
+	top: 472px;
+	width: 998px;
+	height: 44px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 41px;
+	color: #FFFFFF;
+}
+.menu_url_box {
+	width: 409px;
+	height: 58px;
+	background: #9597CB;
+	border-radius: 12px;
+	margin-left: 435px;
+	margin-top: 17px;
+}
+.menu_url {
+	padding-top: 13px;
+	margin-left: 15px;
+	width: 383px;
+	height: 32px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 32px;
+	color: #FFFEFE;
+	text-decoration: none;
+	user-select: none;
+}
+.menu_url_box:hover {
+	text-decoration: underline;
+	text-decoration-color: #FFFFFF;
+}

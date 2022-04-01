@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="/img/clock/ico">
+		<title>хэбит-хаб: награды</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="/style/prises">
+	</head>
+	<body>
+		<img src="/img/clock" class="img_clock"/>
+		<div class="hab-coins_box"><div class="hab-coins" id="coins">У тебя N хаб-коинов</div></div>
+		<div class="button_menu" onclick="menu()"><div class="menu">Вернуться в меню</div></div>
+		<div class="main">
+			<div class="top_line"></div><div class="main_text">НАГРАДЫ:</div>
+			<div class="prises">
+				<div class="prise1">
+					<img src="/img/prise/one" class="img"/>
+					<div class="text_one">Поиграть в телефоне 1 час</div>
+					<div class="text_two" id="st_one">Стоимость: 900<br/>хаб-коинов</div>
+					<div class="button_box" id="button_box_one"><div class="button_buy" onclick="prise_two()"><div class="text_buy">Купить</div></div></div>
+				</div>
+				<div class="prise2">
+					<img src="/img/prise/two" class="img"/>
+					<div class="text_one">Поиграть в компьютере 1 час</div>
+					<div class="text_two" id="st_two">Стоимость: 900<br/>хаб-коинов</div>
+					<div class="button_box" id="button_box_two"><div class="button_buy" onclick="prise_two()"><div class="text_buy">Купить</div></div></div>
+				</div>
+				<div class="prise3">
+					<img src="/img/prise/one" class="img"/>
+					<div class="text_one">Поиграть в телефоне 30 мин</div>
+					<div class="text_two" id="st_three">Стоимость: 500<br/>хаб-коинов</div>
+					<div class="button_box" id="button_box_three"><div class="button_buy" onclick="prise_three()"><div class="text_buy">Купить</div></div></div>
+				</div>
+				<div class="prise4">
+					<img src="/img/prise/two" class="img"/>
+					<div class="text_one">Поиграть в компьютере 30 мин</div>
+					<div class="text_two" id="st_four">Стоимость: 500<br/>хаб-коинов</div>
+					<div class="button_box" id="button_box_four"><div class="button_buy" onclick="prise_four()"><div class="text_buy">Купить</div></div></div>
+				</div>
+				<div class="prise5">
+					<img src="/img/prise/three" class="img"/>
+					<div class="text_one">Сходить в кино</div>
+					<div class="text_two" id="st_five">Стоимость: 630<br/>хаб-коинов</div>
+					<div class="button_box" id="button_box_five"><div class="button_buy" onclick="prise_five()"><div class="text_buy">Купить</div></div></div>
+				</div>
+				<div class="prise6">
+					<img src="/img/prise/four" class="img"/>
+					<div class="text_one">Сходить в McDonald's</div>
+					<div class="text_two" id="st_six">Стоимость: 750<br/>хаб-коинов</div>
+					<div class="button_box" id="button_box_six"><div class="button_buy" onclick="prise_six()"><div class="text_buy">Купить</div></div></div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+		</div>
+		<div id="filled_form"></div>
+		<script src="/js/prises"></script>
+	</body>
+</html>
